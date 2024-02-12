@@ -3,7 +3,491 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="background">
+        <div class="bg-circle-1"></div>
+        <div class="bg-circle-2"></div>
+        <div class="bg-square-1"></div>
+        <div class="bg-square-2"></div>
+        <div class="bg-square-3"></div>
+        <div class="bg-square-4"></div>
+        <div class="bg-square-5"></div>
+        <div class="bg-square-6"></div>
+      </div>
+
+      <main class="box">
+        <div class="mount"></div>
+        <div class="nav">
+          <span class="sks">
+            <img src="image/chat.svg" width="12px" height="12px" />SKS Funding
+          </span>
+
+          <button class="btn">NEED HELP</button>
+
+          <img
+            src="image/notification-bell.svg"
+            width="30px"
+            height="30px"
+            class="notification"
+          />
+
+          <img src="image/1 img.jpg" width="30px" height="30px" class="e-img" />
+        </div>
+
+        <div class="info">
+          <div>
+            <img
+              src="image/1 img.jpg"
+              width="280px"
+              height="280px"
+              class="emma-img"
+            />
+          </div>
+          <div class="profile">
+            <span class="greeting">Hi, Emma good morning ✋</span>
+            <div class="pr-info">
+              <span class="pr-type">Email - </span>
+              <span class="pr-content">akp.emma1231@gmail.com</span> <br />
+              <span class="pr-type">Phone - </span>
+              <span class="pr-content">+91-8897584843</span>
+              <br />
+              <span class="pr-type">Address - </span>
+              <span class="pr-content">Po Box 2103 Linden, NJ 07036 (USA)</span>
+              <br />
+              <span class="pr-type">Plan - </span>
+              <span class="pr-content">100$</span> <br />
+              <span class="pr-type">Joined - </span>
+              <span class="pr-content">Mon 22nd Feb 2019</span>
+            </div>
+          </div>
+
+          <div class="pie-chart-bg">
+            <div class="pie-chart">
+              <svg viewBox="0 0 36 36">
+                <path
+                  class="chart-bg"
+                  d="M18 2.0845
+              a 15.9155 15.9155 0 0 0 0 31.831
+              a 15.9155 15.9155 0 0 0 0 -31.831"
+                />
+                <path
+                  class="chart-75"
+                  d="M18 2.0845
+              a 15.9155 15.9155 0 0 0 0 31.831
+              a 15.9155 15.9155 0 0 0 0 -31.831"
+                  fill="none"
+                  stroke="#fca424"
+                  ;
+                  stroke-width="2"
+                  ;
+                  stroke-dasharray="75, 100"
+                />
+              </svg>
+              <div class="inside-circle"><span class="per">75%</span></div>
+            </div>
+            <div class="pie-info">
+              <span class="pie-info-first">Profile Complition</span> <br />
+              <span class="pie-info-second">Please complete profile</span>
+              <br />
+              <button class="pie-info-btn">COMPLETE</button>
+            </div>
+          </div>
+          <div class="camera-bg">
+            <div class="camera">
+              <svg
+                id="svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="16"
+                height="16"
+                viewBox="0, 0, 400,400"
+              >
+                <g id="svgg">
+                  <path
+                    id="path0"
+                    d="M135.537 45.155 C 124.161 49.089,119.426 54.140,110.614 71.741 C 102.098 88.751,98.522 92.689,89.648 94.825 L 87.500 95.342 87.499 88.882 C 87.496 74.547,85.507 73.437,59.845 73.440 C 33.972 73.444,32.774 74.075,32.164 88.013 C 31.851 95.183,31.803 95.338,29.789 95.747 C 16.775 98.392,8.326 104.550,3.075 115.218 L 0.391 120.670 0.391 225.805 L 0.391 330.940 3.295 336.818 C 9.898 350.178,19.426 355.679,36.728 356.121 C 49.424 356.446,51.099 355.897,52.023 351.104 C 53.057 345.745,50.150 344.201,38.146 343.738 C 24.067 343.194,17.473 339.297,13.587 329.222 C 11.652 324.206,11.244 130.709,13.154 124.142 C 14.767 118.598,19.222 113.299,24.573 110.561 L 29.180 108.203 61.270 107.780 C 89.241 107.411,93.807 107.182,96.849 105.997 C 107.840 101.715,111.867 97.232,121.027 79.081 C 133.509 54.347,126.893 56.250,200.405 56.250 L 258.344 56.250 263.218 58.685 C 269.327 61.738,271.027 64.027,279.042 79.993 C 285.730 93.312,290.183 99.083,296.740 102.925 C 304.361 107.392,304.167 107.369,338.730 107.802 L 370.819 108.203 375.426 110.561 C 380.778 113.299,385.233 118.598,386.846 124.142 C 387.694 127.058,387.891 146.423,387.891 226.953 L 387.891 326.172 386.027 330.296 C 384.918 332.749,382.621 335.808,380.358 337.842 C 373.205 344.273,387.458 343.750,219.429 343.750 C 111.290 343.750,69.075 343.991,67.701 344.617 C 64.047 346.282,63.081 350.885,65.689 354.201 L 67.316 356.269 220.963 356.064 L 374.609 355.859 379.889 353.358 C 387.223 349.884,393.107 344.096,396.705 336.818 L 399.609 330.940 399.609 225.822 L 399.609 120.703 396.947 115.256 C 388.547 98.065,380.769 95.313,340.603 95.313 C 300.675 95.313,301.348 95.604,289.917 73.339 C 279.853 53.735,275.241 48.701,264.224 45.299 C 256.948 43.051,141.992 42.923,135.537 45.155 M166.542 75.246 C 164.430 77.494,164.340 81.236,166.337 83.703 L 167.831 85.547 200.000 85.547 L 232.169 85.547 233.663 83.703 C 235.736 81.142,235.593 77.245,233.348 75.136 C 231.553 73.450,231.310 73.438,199.891 73.438 L 168.241 73.438 166.542 75.246 M75.000 90.625 L 75.000 95.313 59.766 95.313 L 44.531 95.313 44.531 90.625 L 44.531 85.938 59.766 85.938 L 75.000 85.938 75.000 90.625 M40.012 122.857 C 27.476 126.874,23.058 144.955,32.266 154.561 C 44.736 167.570,65.875 158.964,65.771 140.919 C 65.694 127.678,52.920 118.721,40.012 122.857 M189.063 122.364 C 106.976 132.758,71.054 230.254,127.268 290.084 C 185.611 352.181,289.618 317.111,299.316 232.072 C 306.397 169.982,250.699 114.559,189.063 122.364 M348.750 128.419 C 344.924 130.148,344.132 134.226,346.932 137.785 C 351.076 143.054,367.188 139.982,367.188 133.923 C 367.188 128.490,355.991 125.148,348.750 128.419 M49.465 135.284 C 53.921 137.657,54.546 143.197,50.721 146.415 C 47.571 149.065,44.960 148.986,42.127 146.154 C 36.613 140.639,42.671 131.665,49.465 135.284 M213.765 135.567 C 285.307 147.858,312.216 235.232,259.796 285.026 C 207.278 334.913,121.165 302.543,113.128 229.892 C 107.000 174.503,158.645 126.097,213.765 135.567 M191.016 149.718 C 151.941 155.905,124.457 189.432,127.720 226.928 C 134.153 300.829,231.879 319.488,265.212 253.180 C 278.045 227.651,271.414 179.144,256.676 190.737 C 254.077 192.781,254.212 195.384,257.440 205.469 C 265.822 231.652,251.978 262.789,226.369 275.347 C 186.533 294.883,140.460 266.030,140.360 221.484 C 140.247 171.083,199.511 143.579,238.433 175.970 C 243.841 180.471,247.313 181.159,250.175 178.298 C 261.515 166.957,217.236 145.566,191.016 149.718 "
+                    stroke="none"
+                    fill="#ffffff"
+                    fill-rule="evenodd"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-family">
+          <div class="about-text">
+            <span>ABOUT MY FAMILY</span>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div class="hor-line"></div>
+          <div class="about-family-type">
+            <span class="person">COVERED PERSONS</span>
+            <div class="about-family-imgs">
+              <img src="image/2 img.jpg" class="about-family-img" />
+              <img src="image/3 img.jpg" class="about-family-img" />
+            </div>
+          </div>
+          <div class="about-family-type">
+            <span class="person">BENEFICIERY PERSONS</span>
+            <div class="about-family-imgs">
+              <img src="image/4 img.jpg" class="about-family-img" />
+              <img src="image/5 img.jpg" class="about-family-img" />
+              <img src="image/6 img.png" class="about-family-img" />
+            </div>
+          </div>
+          <div class="about-family-type">
+            <span class="person">EMERGENCY PERSONS</span>
+            <div class="about-family-imgs">
+              <img src="image/7 img.jpg" class="about-family-img" />
+              <img src="image/8 img.jpg" class="about-family-img" />
+              <img src="image/9 img.jpg" class="about-family-img" />
+              <img src="image/1 img.jpg" class="about-family-img" />
+            </div>
+          </div>
+        </div>
+
+        <div class="about-me">
+          <div class="about-text">
+            <span>ABOUT ME</span>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div class="hor-line"></div>
+
+          <div class="about-me-info">
+            <div class="about-me-details">
+              <span class="about-me-type">EMAIL</span> <br />
+              <span class="about-me-content">akp.emma1231@gmail.com</span>
+              <br />
+            </div>
+            <div class="about-me-details">
+              <span class="about-me-type">PHONE</span> <br />
+              <span class="about-me-content">+91-8897584843</span>
+              <br />
+            </div>
+            <div class="about-me-details">
+              <span class="about-me-type">ADDRESS</span> <br />
+              <span class="about-me-content"
+                >Po Box 2103 Linden, NJ 07036 (USA)</span
+              >
+              <br />
+            </div>
+            <div class="about-me-details">
+              <span class="about-me-type">PLAN</span> <br />
+              <span class="about-me-content">100$</span> <br />
+            </div>
+            <div class="about-me-details">
+              <span class="about-me-type">JOINED</span> <br />
+              <span class="about-me-content">Mon 22nd Feb 2019</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ver-line"></div>
+        <div class="hor-line-2"></div>
+
+        <div class="page-type">
+          <div class="dashboard">
+            <img src="image/home.svg" width="14px" height="14px" /><span
+              >DASHBOARD</span
+            >
+          </div>
+          <div class="dashboard-type">
+            <span>NEW CLAIMS</span>
+          </div>
+          <div class="dashboard-type">
+            <span>COMPLETED CLAIMS</span>
+          </div>
+          <div class="dashboard-type">
+            <span>PAST CLAIMS</span>
+          </div>
+          <div class="dashboard-type">
+            <span>MEMBERS</span>
+          </div>
+          <div class="dashboard-type">
+            <span>MY CLAIMS</span>
+          </div>
+          <button>
+            <img
+              src="image/money.svg"
+              width="14px"
+              height="14px"
+              class="money"
+            />
+            CLAIM
+          </button>
+        </div>
+
+        <div class="company-box-bg">
+          <div class="company-box">
+            <div class="cb-content">
+              <div class="number">23</div>
+              <div class="ver-line-2"></div>
+              <div class="text-photo">
+                <span class="name">NEW CLAIMS</span> <br />
+                <div class="photos">
+                  <img src="image/4 img.jpg" />
+                  <img src="image/7 img.jpg" />
+                  <img src="image/10 img.jpg" />
+                  <img src="image/9 img.jpg" />
+                  <div class="color">+32</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="company-box">
+            <div class="cb-content">
+              <div class="number">76</div>
+              <div class="ver-line-3"></div>
+              <div class="text-photo">
+                <span class="name">NEW MEMBERS</span> <br />
+                <div class="photos">
+                  <img src="image/2 img.jpg" />
+                  <img src="image/6 img.png" />
+                  <img src="image/1 img.jpg" />
+                  <img src="image/9 img.jpg" />
+                  <div class="color">+32</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="company-box">
+            <div class="cb-content">
+              <div class="number">102</div>
+              <div class="ver-line-4"></div>
+              <div class="text-photo">
+                <span class="name">TOTAL CLAIMS</span> <br />
+                <div class="photos">
+                  <img src="image/3 img.jpg" />
+                  <img src="image/5 img.jpg" />
+                  <img src="image/8 img.jpg" />
+                  <img src="image/9 img.jpg" />
+                  <div class="color">+32</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-bg">
+          <div class="blog">
+            <div class="blogs">
+              <div class="blog-img">
+                <img src="image/6 img.png" width="90px" height="90px" />
+              </div>
+              <div class="blog-content">
+                <div class="blog-person"><span>AMELIA KIMANI</span></div>
+                <div class="blog-content-info">
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/windows/32/calendar.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Filed</span> - Thu, Jul 10, 2018
+                    7:30 PM EDT</span
+                  >
+                  <br />
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/windows/32/overtime.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Due</span> - Wed, Jul 23, 2019 12:30
+                    PM</span
+                  >
+                  <br />
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/ios/50/marker--v1.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Address</span> - Hillside Rd,
+                    Hiranandani...</span
+                  >
+                </div>
+
+                <button class="blog-btn">
+                  <img src="image/money.svg" width="14px" height="14px" /> PAY
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blogs">
+              <div class="blog-img">
+                <img src="image/10 img.jpg" width="90px" height="90px" />
+              </div>
+              <div class="blog-content">
+                <div class="blog-person"><span>GENEVIEVE JUMA</span></div>
+                <div class="blog-content-info">
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/windows/32/calendar.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Filed</span> - Thu, Jul 10, 2018
+                    7:30 PM EDT</span
+                  >
+                  <br />
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/windows/32/overtime.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Due</span> - Wed, Jul 23, 2019 12:30
+                    PM</span
+                  >
+                  <br />
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/ios/50/marker--v1.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Address</span> - Hillside Rd,
+                    Hiranandani...</span
+                  >
+                </div>
+
+                <button class="blog-btn">
+                  <img src="image/money.svg" width="14px" height="14px" /> PAY
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blogs">
+              <div class="blog-img">
+                <img src="image/11 img.jpg" width="90px" height="90px" />
+              </div>
+              <div class="blog-content">
+                <div class="blog-person"><span>THEODORE WACHIRA</span></div>
+                <div class="blog-content-info">
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/windows/32/calendar.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Filed</span> - Thu, Jul 10, 2018
+                    7:30 PM EDT</span
+                  >
+                  <br />
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/windows/32/overtime.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Due</span> - Wed, Jul 23, 2019 12:30
+                    PM</span
+                  >
+                  <br />
+                  <span class="blog-schedule">
+                    <img
+                      src="https://img.icons8.com/ios/50/marker--v1.png"
+                      width="12px"
+                      height="12px"
+                      class="blog-svg"
+                    />
+                    <span class="blog-time">Address</span> - Hillside Rd,
+                    Hiranandani...</span
+                  >
+                </div>
+
+                <button class="blog-btn">
+                  <img src="image/money.svg" width="14px" height="14px" /> PAY
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity-bg">
+          <span class="activity">ACTIVITY</span>
+          <div class="hor-line-3"></div>
+          <div class="hor-line-4"></div>
+          <div class="ver-line-5"></div>
+          <div class="bullet-1">
+            <div class="small-bullet-1"></div>
+          </div>
+          <div class="bullet-2">
+            <div class="small-bullet-2"></div>
+          </div>
+          <div class="bullet-3">
+            <div class="small-bullet-3"></div>
+          </div>
+          <div class="bullet-4">
+            <div class="small-bullet-4"></div>
+          </div>
+          <ul class="activity-details">
+            <li class="heading">Claimed $2000</li>
+            <li class="paragraph">
+              23 members are got claimed in washington DC
+            </li>
+            <li class="time">05:40pm</li>
+
+            <li class="heading">102 New Members</li>
+            <li class="paragraph">
+              We have 102 registrations check out their profiles
+            </li>
+            <li class="time">05:40pm</li>
+
+            <li class="heading">3 Claims are waiting</li>
+            <li class="paragraph">
+              Please contribute them, they are Waiting for your help
+            </li>
+            <li class="time">05:40pm</li>
+
+            <li class="heading">102 New Members</li>
+            <li class="paragraph">
+              We have 102 registrations check out their profiles
+            </li>
+            <li class="time">05:40pm</li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
