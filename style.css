@@ -686,23 +686,23 @@ body {
   background-color: #cdcdcd4f;
 }
 
-.hor-line-4 {
+.ver-line-5 {
+  position: absolute;
+  top: 40%;
+  left: 94%;
+  width: 3px;
+  height: 8%;
+  border-radius: 20%;
+  background-color: #fca424;
+}
+
+.ver-line-6 {
   position: absolute;
   top: 14%;
   left: 8%;
   width: 1px;
   height: 83%;
   background-color: #cdcdcd4f;
-}
-
-.ver-line-4 {
-  position: absolute;
-  top: 166%;
-  left: 98%;
-  width: 3px;
-  height: 13%;
-  border-radius: 20%;
-  background-color: #fca424;
 }
 
 .activity-details {
