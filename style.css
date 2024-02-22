@@ -446,18 +446,7 @@ body {
 }
 
 .dashboard:hover {
-  display: flex;
-  gap: 3px;
-  color: #000;
-  font-weight: 700;
-  border-bottom: 2px solid #fca424;
-  padding-bottom: 27px;
   cursor: pointer;
-}
-
-.inact {
-  color: #cdcdcd;
-  border-bottom: none;
 }
 
 .dashboard-type:hover {
